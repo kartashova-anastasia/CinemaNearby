@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/textColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="AppTheme.TransparentStatusBar" parent="AppTheme"/>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.TextViewTitleStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#3f9100</item>
+    </style>
+
+    <style name="AppTheme.NestedListViewStyle">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">4dp</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.SearchCardViewStyle">
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="AppTheme.SearchEditTextStyle">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppTheme.InfoTextViewStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.InfobarButtonStyle">
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppTheme.ImageLayoutStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.TitleTextAppearance">
+    <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+</style>
+</resources>

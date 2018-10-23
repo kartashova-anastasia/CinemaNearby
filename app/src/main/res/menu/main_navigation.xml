@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_menu_all"
+        android:icon="@drawable/ic_all_nav"
+        android:title="@string/main_all_tab"/>
+    <item android:icon="@drawable/ic_fav_nav"
+        android:id="@+id/nav_menu_fav"
+        android:title="@string/main_fav_tab"/>
+
+
+</menu>
